@@ -1,7 +1,7 @@
 @Library('roboshop-shared-library@main') _
 
 env.COMPONENT="cart"
-nodejs("cart")
+nodejs()
 
                 // sh "echo installing jslint"
                 // sh "npm install jslint"
