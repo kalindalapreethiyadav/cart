@@ -6,6 +6,9 @@ pipeline {
         // This should run for every commit on feature branch
         stage('Lint checks') {
             steps {
+                script {
+                    
+                }
                 sh "echo installing jslint"
                 sh "npm install jslint"
                 sh "ls -ltr node_modules/jslint/bin"
