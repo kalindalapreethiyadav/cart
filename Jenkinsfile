@@ -7,7 +7,7 @@ pipeline {
         stage('Lint checks') {
             steps {
                 script {
-                    sample.info()
+                    sample.info("Starting-Value", "snapshat.com")
                 }
                 sh "echo installing jslint"
                 sh "npm install jslint"
