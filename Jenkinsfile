@@ -16,6 +16,6 @@ pipeline {
                 sh "echo lint checks completed"
             }
         }
-    }
+    } // end of the stages
 }
 
