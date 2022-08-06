@@ -12,7 +12,7 @@ pipeline {
             }
         }
     } // end of the stages
-}
+}  // end of the pipeline
 
                 // sh "echo installing jslint"
                 // sh "npm install jslint"
