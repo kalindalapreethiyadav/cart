@@ -19,4 +19,3 @@ pipeline {
     }
 }
 
-INFO: Starting-Value  ,url value is snapshat.com
