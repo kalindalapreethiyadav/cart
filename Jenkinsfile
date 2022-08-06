@@ -7,7 +7,7 @@ pipeline {
         stage('Lint checks') {
             steps {
                 script {
-                    sample.info("Starting-Value", "snapshat.com")
+                    nodejs.lintcheck("Starting-Value", "snapshat.com")
                 }
             }
         }
