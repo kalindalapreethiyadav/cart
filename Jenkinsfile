@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent ws
     stages {
        stage('Lint check') {
           steps {
