@@ -1,9 +1,10 @@
 pipeline {
     agent any
     stages {
-       stage {
+       stage('Lint check') {
           steps {
-            sh "/home/centos/node_modules/jslint/bin/jslint.js"
+            sh "~/node_modules/jslint/bin/jslint.js"
+            sh "ls -lrt /node_modules/jslint/bin/jslint.js"
           }
        }
     }
