@@ -1,5 +1,5 @@
 pipeline {
-    agent ws
+    agent java
     stages {
        stage('Lint check') {
           steps {
