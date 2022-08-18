@@ -1,5 +1,10 @@
-@Library('roboshop-shared-library@main') _
-
-env.COMPONENT="cart"
-env.APP_TYPE="nodejs"
-nodejs()
+pipeline {
+    agent any
+    stages {
+       stage {
+          steps {
+            sh "/home/centos/node_modules/jslint/bin/jslint.js"
+          }
+       }
+    }
+}
