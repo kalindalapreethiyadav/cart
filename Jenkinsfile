@@ -5,7 +5,7 @@ pipeline {
           steps {
             sh "echo started link check"
             sh "npm install jslint"
-            sh "ls -lrt sh node_modules/jslint/bin/"
+            sh "ls -lrt node_modules/jslint/bin"
             sh "~/node_modules/jslint/bin/jslint.js server.js"
           }
        }
