@@ -1,2 +1,7 @@
+Agent server :-
+we add node at jenkins server or adding node at jenkins server itself
+At Agent server --JAVA need to be installed to run the jenkins jobs
 NPM -- All the "rpm" present in "server.js" all that will be installed by npm.
+
+ -------
  
