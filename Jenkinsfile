@@ -3,7 +3,6 @@ pipeline {
     stages {
        stage('Lint check') {
           steps {
-            sh "started lint check"
             sh "ls -lrt"
             sh "pwd"
             sh "env"
