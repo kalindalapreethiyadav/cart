@@ -6,6 +6,7 @@ pipeline {
             sh "started lint check"
             sh "ls -lrt"
             sh "pwd"
+            sh "env"
           }
        }
     }
