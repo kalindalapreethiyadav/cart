@@ -5,7 +5,7 @@ pipeline {
           steps {
             sh "started lint check"
             sh "ls -lrt"
-            sh "~/node_modules/jslint/bin/jslint.js server.js"
+           // sh "~/node_modules/jslint/bin/jslint.js server.js"
           }
        }
     }
