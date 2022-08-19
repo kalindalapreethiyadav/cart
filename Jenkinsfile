@@ -6,7 +6,7 @@ pipeline {
        stage('Lint check') {
           steps {
             script{
-              nodejs.lintcheck("cart", "dev") 
+              nodejs.lintcheck() 
             }
           }
        }
