@@ -1,0 +1,732 @@
+login as: centos
+Authenticating with public key "putty_key"
+Last login: Sat Jun 25 15:49:08 2022 from 223.187.21.42
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ cd folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+[centos@ip-172-31-21-217 folder1]$ cp a.txt /folder1/
+cp: cannot stat ‘a.txt’: No such file or directory
+[centos@ip-172-31-21-217 folder1]$ cd folder1
+-bash: cd: folder1: No such file or directory
+[centos@ip-172-31-21-217 folder1]$ clear
+[centos@ip-172-31-21-217 folder1]$ ls
+[centos@ip-172-31-21-217 folder1]$ pwd
+/home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ cd ..
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ pwd
+/home/centos
+[centos@ip-172-31-21-217 ~]$ cp a.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ cd /home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt
+[centos@ip-172-31-21-217 folder1]$ cd /home/centos
+[centos@ip-172-31-21-217 ~]$ vi a.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+chnaged new line added
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ cp a.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ cd /home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt
+[centos@ip-172-31-21-217 folder1]$ cat a.txt
+chnaged new line added
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 folder1]$ cd /home/centos
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ mv ikea /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ mv z.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cd folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt  ikea  z.txt
+[centos@ip-172-31-21-217 folder1]$ cd ..
+[centos@ip-172-31-21-217 ~]$ rm folder1
+rm: cannot remove ‘folder1’: Is a directory
+[centos@ip-172-31-21-217 ~]$ rm -r folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  preethi
+
+
+login as: centos
+Authenticating with public key "putty_key"
+Last login: Sat Jun 25 15:49:08 2022 from 223.187.21.42
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ cd folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+[centos@ip-172-31-21-217 folder1]$ cp a.txt /folder1/
+cp: cannot stat ‘a.txt’: No such file or directory
+[centos@ip-172-31-21-217 folder1]$ cd folder1
+-bash: cd: folder1: No such file or directory
+[centos@ip-172-31-21-217 folder1]$ clear
+[centos@ip-172-31-21-217 folder1]$ ls
+[centos@ip-172-31-21-217 folder1]$ pwd
+/home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ cd ..
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ pwd
+/home/centos
+[centos@ip-172-31-21-217 ~]$ cp a.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ cd /home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt
+[centos@ip-172-31-21-217 folder1]$ cd /home/centos
+[centos@ip-172-31-21-217 ~]$ vi a.txt
+[centos@ip-172-31-21-217 ~]$ cat a.txt
+chnaged new line added
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ cp a.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ cd /home/centos/folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt
+[centos@ip-172-31-21-217 folder1]$ cat a.txt
+chnaged new line added
+hello my first touch file in cloud aws
+[centos@ip-172-31-21-217 folder1]$ cd /home/centos
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  ikea  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ mv ikea /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi  z.txt
+[centos@ip-172-31-21-217 ~]$ mv z.txt /home/centos/folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder1  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cd folder1
+[centos@ip-172-31-21-217 folder1]$ ls
+a.txt  ikea  z.txt
+[centos@ip-172-31-21-217 folder1]$ cd ..
+[centos@ip-172-31-21-217 ~]$ rm folder1
+rm: cannot remove ‘folder1’: Is a directory
+[centos@ip-172-31-21-217 ~]$ rm -r folder1
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ ^C
+[centos@ip-172-31-21-217 ~]$ root
+-bash: root: command not found
+[centos@ip-172-31-21-217 ~]$ sudo su
+[root@ip-172-31-21-217 centos]# su
+[root@ip-172-31-21-217 centos]# su centos
+[centos@ip-172-31-21-217 ~]$ su root
+Password:
+su: Authentication failure
+[centos@ip-172-31-21-217 ~]$ cd /etc/
+[centos@ip-172-31-21-217 etc]$ ls
+adjtime                  DIR_COLORS               idmapd.conf               mtab            rc1.d             ssl
+aliases                  DIR_COLORS.256color      init.d                    my.cnf          rc2.d             statetab
+aliases.db               DIR_COLORS.lightbgcolor  inittab                   my.cnf.d        rc3.d             statetab.d
+alternatives             dracut.conf              inputrc                   netconfig       rc4.d             subgid
+anacrontab               dracut.conf.d            iproute2                  NetworkManager  rc5.d             subgid-
+audisp                   e2fsck.conf              issue                     networks        rc6.d             subuid
+audit                    environment              issue.net                 nfs.conf        rc.d              subuid-
+bash_completion.d        exports                  kdump.conf                nfsmount.conf   rc.local          sudo.conf
+bashrc                   exports.d                kernel                    nsswitch.conf   redhat-release    sudoers
+binfmt.d                 filesystems              krb5.conf                 openldap        request-key.conf  sudoers.d
+centos-release           firewalld                krb5.conf.d               opt             request-key.d     sudo-ldap.conf
+centos-release-upstream  fstab                    ld.so.cache               os-release      resolv.conf       sysconfig
+chkconfig.d              gcrypt                   ld.so.conf                pam.d           rpc               sysctl.conf
+chrony.conf              gnupg                    ld.so.conf.d              passwd          rpm               sysctl.d
+chrony.keys              GREP_COLORS              libaudit.conf             passwd-         rsyncd.conf       systemd
+cloud                    groff                    libnl                     pkcs11          rsyslog.conf      system-release
+cron.d                   group                    libuser.conf              pki             rsyslog.d         system-release-cpe
+cron.daily               group-                   locale.conf               pm              rwtab             terminfo
+cron.deny                grub2.cfg                localtime                 polkit-1        rwtab.d           tmpfiles.d
+cron.hourly              grub.conf                login.defs                popt.d          sasl2             tuned
+cron.monthly             grub.d                   logrotate.conf            postfix         securetty         udev
+crontab                  gshadow                  logrotate.d               ppp             security          vconsole.conf
+cron.weekly              gshadow-                 machine-id                prelink.conf.d  selinux           virc
+crypttab                 gss                      magic                     printcap        services          wpa_supplicant
+csh.cshrc                gssproxy                 makedumpfile.conf.sample  profile         sestatus.conf     X11
+csh.login                host.conf                man_db.conf               profile.d       shadow            xdg
+dbus-1                   hostname                 mke2fs.conf               protocols       shadow-           xinetd.d
+default                  hosts                    modprobe.d                python          shells            yum
+depmod.d                 hosts.allow              modules-load.d            qemu-ga         skel              yum.conf
+dhcp                     hosts.deny               motd                      rc0.d           ssh               yum.repos.d
+[centos@ip-172-31-21-217 etc]$ sudo su
+[root@ip-172-31-21-217 etc]# su centos
+[centos@ip-172-31-21-217 etc]$ su root
+Password:
+su: Authentication failure
+[centos@ip-172-31-21-217 etc]$ cd /etct/passwd
+bash: cd: /etct/passwd: No such file or directory
+[centos@ip-172-31-21-217 etc]$ cd /etc/passwd
+bash: cd: /etc/passwd: Not a directory
+[centos@ip-172-31-21-217 etc]$ cd /etc/passwd/
+bash: cd: /etc/passwd/: Not a directory
+[centos@ip-172-31-21-217 etc]$ sudo su
+[root@ip-172-31-21-217 etc]# su centos
+[centos@ip-172-31-21-217 etc]$ su root
+Password:
+su: Authentication failure
+[centos@ip-172-31-21-217 etc]$ cat /etc/passwd/
+cat: /etc/passwd/: Not a directory
+[centos@ip-172-31-21-217 etc]$ cat /etc
+cat: /etc: Is a directory
+[centos@ip-172-31-21-217 etc]$ cd /etc/
+[centos@ip-172-31-21-217 etc]$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:998:995::/var/lib/chrony:/sbin/nologin
+centos:x:1000:1000:Cloud User:/home/centos:/bin/bash
+[centos@ip-172-31-21-217 etc]$
+
+
+
+Authenticating with public key "putty_key"
+Last login: Sat Jun 25 16:36:29 2022
+[centos@ip-172-31-21-217 ~]$ cd -
+-bash: cd: OLDPWD not set
+[centos@ip-172-31-21-217 ~]$ cd .
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cd folder2/1
+-bash: cd: folder2/1: No such file or directory
+[centos@ip-172-31-21-217 ~]$ cd folder2
+[centos@ip-172-31-21-217 folder2]$ cd -
+/home/centos
+[centos@ip-172-31-21-217 ~]$ cd .
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cd folder2
+[centos@ip-172-31-21-217 folder2]$ cd .
+[centos@ip-172-31-21-217 folder2]$ cp folder2 preethi
+cp: cannot stat ‘folder2’: No such file or directory
+[centos@ip-172-31-21-217 folder2]$ sudo cp folder2 preethi
+cp: cannot stat ‘folder2’: No such file or directory
+[centos@ip-172-31-21-217 folder2]$ cp -r folder2 preethi
+cp: cannot stat ‘folder2’: No such file or directory
+[centos@ip-172-31-21-217 folder2]$ cd ..
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cp folder2 preethi
+cp: omitting directory ‘folder2’
+[centos@ip-172-31-21-217 ~]$ cp -r folder2 preethi
+[centos@ip-172-31-21-217 ~]$ cp /etc/passwd .
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  passwd  preethi
+[centos@ip-172-31-21-217 ~]$ ls -a
+.   a.txt       .bash_history  .bash_profile  folder2  preethi
+..  .a.txt.swp  .bash_logout   .bashrc        passwd   .ssh
+[centos@ip-172-31-21-217 ~]$ cd .
+[centos@ip-172-31-21-217 ~]$ ls
+a.txt  folder2  passwd  preethi
+[centos@ip-172-31-21-217 ~]$ cd ..
+[centos@ip-172-31-21-217 home]$ cd .
+[centos@ip-172-31-21-217 home]$ cd ..
+[centos@ip-172-31-21-217 /]$ cd -
+/home
+[centos@ip-172-31-21-217 home]$ cd ..
+[centos@ip-172-31-21-217 /]$ pwd
+/
+
+
+------------------------------------------
+login as: centos
+Authenticating with public key "putty_key"
+Last login: Sat Jun 25 17:03:32 2022 from 223.187.21.42
+[centos@ip-172-31-21-217 ~]$ ls
+-  a.txt  cpuinfo  folder2  passwd  preethi  sample.txt
+[centos@ip-172-31-21-217 ~]$ cat cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 63
+model name      : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+stepping        : 2
+microcode       : 0x49
+cpu MHz         : 2399.960
+cache size      : 30720 KB
+physical id     : 0
+siblings        : 1
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmovpat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_god nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2api movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm am invpcid_single fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt
+bogomips        : 4800.01
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 46 bits physical, 48 bits virtual
+power management:
+
+[centos@ip-172-31-21-217 ~]$ cut -d : 1 cpuinfo
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+[centos@ip-172-31-21-217 ~]$ cut -d : 1 cpuinfo.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+[centos@ip-172-31-21-217 ~]$ cut -d : -f1 cpuinfo.txt
+cut: cpuinfo.txt: No such file or directory
+[centos@ip-172-31-21-217 ~]$ cut -d : -f1 cpuinfo
+processor
+vendor_id
+cpu family
+model
+model name
+stepping
+microcode
+cpu MHz
+cache size
+physical id
+siblings
+core id
+cpu cores
+apicid
+initial apicid
+fpu
+fpu_exception
+cpuid level
+wp
+flags
+bogomips
+clflush size
+cache_alignment
+address sizes
+power management
+
+[centos@ip-172-31-21-217 ~]$ cut -d : -f1,2 cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 63
+model name      : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+stepping        : 2
+microcode       : 0x49
+cpu MHz         : 2399.960
+cache size      : 30720 KB
+physical id     : 0
+siblings        : 1
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmovpat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_god nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2api movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm am invpcid_single fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt
+bogomips        : 4800.01
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 46 bits physical, 48 bits virtual
+power management:
+
+[centos@ip-172-31-21-217 ~]$ cut -d : -f1,2 meminfo
+cut: meminfo: No such file or directory
+[centos@ip-172-31-21-217 ~]$ ls
+-  a.txt  cpuinfo  folder2  passwd  preethi  sample.txt
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f1 sample.txt
+
+ji
+hello
+hi
+
+[centos@ip-172-31-21-217 ~]$ cat sample.txt
+
+ji
+hello
+hi how are you man
+ hi illo what u
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f 1 smaple.txt
+cut: smaple.txt: No such file or directory
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f1,5 sample.txt
+
+ji
+hello
+hi man
+ u
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f 1,5 sample.txt
+
+ji
+hello
+hi man
+ u
+[centos@ip-172-31-21-217 ~]$ cut -d : -f1 a.txt
+chnaged new line added
+nus Benedict Torvalds (/ˈliːnəs ˈtɔːrvɔːldz/ LEE-nəs TOR-vawldz,[3] Finland Sweish
+
+He was honored, along with Shinya Yamanaka, with the 2012 Millennium TechnologyPrize by the Technology Academy Finland "in recognition of his creation of a ne open source operating system for computers leading to the widely used Linux kenel."[4] He is also the recipient of the 2014 IEEE Computer Society Computer Pineer Award[5] and the 2018 IEEE Masaru Ibuka Consumer Electronics hello my firs touch file in cloud aws
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f 1,5 a.txt
+chnaged
+nus ˈtɔːrvɔːldz/
+
+He with
+[centos@ip-172-31-21-217 ~]$ cat meminfo
+cat: meminfo: No such file or directory
+[centos@ip-172-31-21-217 ~]$ ls
+-  a.txt  cpuinfo  folder2  passwd  preethi  sample.txt
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f 1,5 passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd
+dbus:x:81:81:System
+polkitd:x:999:998:User
+rpc:x:32:32:Rpcbind
+rpcuser:x:29:29:RPC
+nfsnobody:x:65534:65534:Anonymous
+sshd:x:74:74:Privilege-separated
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:998:995::/var/lib/chrony:/sbin/nologin
+centos:x:1000:1000:Cloud
+[centos@ip-172-31-21-217 ~]$ cut -d ' ' -f 1,5 passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd
+dbus:x:81:81:System
+polkitd:x:999:998:User
+rpc:x:32:32:Rpcbind
+rpcuser:x:29:29:RPC
+nfsnobody:x:65534:65534:Anonymous
+sshd:x:74:74:Privilege-separated
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:998:995::/var/lib/chrony:/sbin/nologin
+centos:x:1000:1000:Cloud
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1,5 passwd
+root:root
+bin:bin
+daemon:daemon
+adm:adm
+lp:lp
+sync:sync
+shutdown:shutdown
+halt:halt
+mail:mail
+operator:operator
+games:games
+ftp:FTP User
+nobody:Nobody
+systemd-network:systemd Network Management
+dbus:System message bus
+polkitd:User for polkitd
+rpc:Rpcbind Daemon
+rpcuser:RPC Service User
+nfsnobody:Anonymous NFS User
+sshd:Privilege-separated SSH
+postfix:
+chrony:
+centos:Cloud User
+[centos@ip-172-31-21-217 ~]$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:998:995::/var/lib/chrony:/sbin/nologin
+centos:x:1000:1000:Cloud User:/home/centos:/bin/bash
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd
+root:x:0
+bin:x:1
+daemon:x:2
+adm:x:3
+lp:x:4
+sync:x:5
+shutdown:x:6
+halt:x:7
+mail:x:8
+operator:x:11
+games:x:12
+ftp:x:14
+nobody:x:99
+systemd-network:x:192
+dbus:x:81
+polkitd:x:999
+rpc:x:32
+rpcuser:x:29
+nfsnobody:x:65534
+sshd:x:74
+postfix:x:89
+chrony:x:998
+centos:x:1000
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '1,4'passwd
+sed: -e expression #1, char 5: extra characters after command
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '1,4' passwd
+sed: -e expression #1, char 3: missing command
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '1,4 p' passw
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '7,4 p' passw
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '7,6 p' passw
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '7,10 p' passd
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+[centos@ip-172-31-21-217 ~]$ cut -d ':' -f 1-3 passwd | sed -n -e '7-10 p' passd
+sed: -e expression #1, char 2: unknown command: `-'
+[centos@ip-172-31-21-217 ~]$ sudo useradd sankar
+[centos@ip-172-31-21-217 ~]$ sudo useradd banu
+[centos@ip-172-31-21-217 ~]$ sudo useradd satveer
+[centos@ip-172-31-21-217 ~]$ sudo useradd harender
+[centos@ip-172-31-21-217 ~]$ ls -u
+passwd  cpuinfo  sample.txt  a.txt  -  folder2  preethi
+[centos@ip-172-31-21-217 ~]$ cat /etc/groups
+cat: /etc/groups: No such file or directory
+[centos@ip-172-31-21-217 ~]$ cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:centos
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:centos
+systemd-network:x:192:
+dbus:x:81:
+polkitd:x:998:
+rpc:x:32:
+ssh_keys:x:997:
+cgred:x:996:
+rpcuser:x:29:
+nfsnobody:x:65534:
+sshd:x:74:
+postdrop:x:90:
+postfix:x:89:
+chrony:x:995:
+centos:x:1000:
+sankar:x:1001:
+banu:x:1002:
+satveer:x:1003:
+harender:x:1004:
+[centos@ip-172-31-21-217 ~]$ su banu
+Password:
+
+su: Authentication failure
+[centos@ip-172-31-21-217 ~]$
+[centos@ip-172-31-21-217 ~]$ groupname dola
+-bash: groupname: command not found
+[centos@ip-172-31-21-217 ~]$ groupadd dola
+groupadd: Permission denied.
+groupadd: cannot lock /etc/group; try again later.
+[centos@ip-172-31-21-217 ~]$ sudo groupadd dola
+[centos@ip-172-31-21-217 ~]$ cat /etct/group
+cat: /etct/group: No such file or directory
+[centos@ip-172-31-21-217 ~]$ cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:centos
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:centos
+systemd-network:x:192:
+dbus:x:81:
+polkitd:x:998:
+rpc:x:32:
+ssh_keys:x:997:
+cgred:x:996:
+rpcuser:x:29:
+nfsnobody:x:65534:
+sshd:x:74:
+postdrop:x:90:
+postfix:x:89:
+chrony:x:995:
+centos:x:1000:
+sankar:x:1001:
+banu:x:1002:
+satveer:x:1003:
+harender:x:1004:
+dola:x:1005:
+[centos@ip-172-31-21-217 ~]$ members dola
+-bash: members: command not found
+[centos@ip-172-31-21-217 ~]$ members --help
+-bash: members: command not found
+[centos@ip-172-31-21-217 ~]$ sudo libuser -g dola
+sudo: libuser: command not found
+[centos@ip-172-31-21-217 ~]$ sudo libuser-lid -g dola
+sudo: libuser-lid: command not found
+[centos@ip-172-31-21-217 ~]$ sudo usermod -a -G dola banu
+[centos@ip-172-31-21-217 ~]$ passwd preek
+passwd: Only root can specify a user name.
+[centos@ip-172-31-21-217 ~]$ passwd sankar
+passwd: Only root can specify a user name.
+[centos@ip-172-31-21-217 ~]$ sudo passwd sankar
+Changing password for user sankar.
+New password:
+BAD PASSWORD: The password is shorter than 7 characters
+Retype new password:
+Sorry, passwords do not match.
+New password:
+BAD PASSWORD: The password contains the user name in some form
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[centos@ip-172-31-21-217 ~]$
+[centos@ip-172-31-21-217 ~]$ su sankar
+Password:
+[sankar@ip-172-31-21-217 centos]$ sudo passwd banu
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for sankar:
+Sorry, try again.
+[sudo] password for sankar:
+sankar is not in the sudoers file.  This incident will be reported.
+[sankar@ip-172-31-21-217 centos]$ su banu
+Password:
+[sankar@ip-172-31-21-217 centos]$ cd -
+bash: cd: OLDPWD not set
+[sankar@ip-172-31-21-217 centos]$ su centos
+Password:
+
+su: Authentication failure
+[sankar@ip-172-31-21-217 centos]$
+[sankar@ip-172-31-21-217 centos]$ ^C
+[sankar@ip-172-31-21-217 centos]$ root
+bash: root: command not found
+[sankar@ip-172-31-21-217 centos]$ su root
+Password:
+[sankar@ip-172-31-21-217 centos]$ exit
+exit
+[centos@ip-172-31-21-217 ~]$ sudo passwd centos
+Changing password for user centos.
+New password:
+BAD PASSWORD: The password contains the user name in some form
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[centos@ip-172-31-21-217 ~]$ su centos
+Password:
+[centos@ip-172-31-21-217 ~]$ su sankar
+Password:
+[sankar@ip-172-31-21-217 centos]$ su banu
+Password:
+su: Authentication failure
+[sankar@ip-172-31-21-217 centos]$ su banu
+Password:
+su: Authentication failure
+[sankar@ip-172-31-21-217 centos]$ sudo su banu
+[sudo] password for sankar:
+Sorry, try again.
+[sudo] password for sankar:
+sudo: 1 incorrect password attempt
+[sankar@ip-172-31-21-217 centos]$ su centos
+Password:
+[centos@ip-172-31-21-217 ~]$

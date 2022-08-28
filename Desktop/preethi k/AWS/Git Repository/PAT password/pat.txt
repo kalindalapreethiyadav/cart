@@ -1,0 +1,21 @@
+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
+
+git remote remove origin https://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@github.com/kalindalapreethiyadav/Ansible.git
+
+git remote set-url origin https://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@github.com/kalindalapreethiyadav/Ansible.git
+
+https://github.com/kalindalapreethiyadav/Bash-Scripting
+
+git remote add origin https://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@github.com/kalindalapreethiyadav/Ansible.git
+
+git config --global user.email "kpreethiyadav579@gmail.com"
+
+openssl s_client -connect ${SITE_URL}:${8080} -servername ${18.209.93.96} 2> /dev/null | openssl x509 -noout -dates
+
+
+git remote remove origin https://github.com/kalindalapreethiyadav/POC.git
+git remote set-url origin https://github.com/kalindalapreethiyadav/POC.git
+
+git add -A
+git commit -m "[foo] - foobar commit"
+git push origin fix/#123 -f
