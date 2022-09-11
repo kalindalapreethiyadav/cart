@@ -1,6 +1,6 @@
-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
+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
 
-git remote remove origin https://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@github.com/kalindalapreethiyadav/Ansible.git
+git remote remove origin https://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@github.com/kalindalapreethiyadav/Ansible.git
 
 git remote set-url origin https://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@github.com/kalindalapreethiyadav/Ansible.git
 
